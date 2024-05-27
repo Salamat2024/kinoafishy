@@ -7,6 +7,8 @@ const API_URL_SEARCH=
 
 
 
+
+
 getMovies(API_URL)
 async function getMovies(url) {
     const resp = await fetch(url, {

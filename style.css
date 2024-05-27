@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -29,26 +29,54 @@ body {
 
 .header__search {
     padding: 8px;
-    border: 2px solid #1a191f;
     border-radius: 5px;
     outline: none;
+    border: none;
 }
-
+.wrapper{
+    margin: 20px 0;   
+    display: flex;
+    justify-content: space-between;
+        
+}
+button{
+    cursor: pointer;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    background-color: #e3a4a4;
+    color: #ffffff;
+    font-size: 16px;
+}
+button:not(:first-child){
+    margin-left: 10px;
+}
+button:hover{
+background-color: #b5aedc;
+transform: scale(1);
+}
+.nav__left{
+    padding-left: 18px;
+}
 .movies {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 
 .movie {
     width: 240px;
     margin: 10px;
     position: relative;
+   
 }
 
 .movie__cover-inner {
     position: relative;
     height: 360px;
+    
 }
 
 .movie__cover {
